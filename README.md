@@ -1,10 +1,10 @@
 # 🚕 Taxi Ride Duration Prediction
 
-`taxi_ride.ipynb` contains code used to predict the duration of taxi rides in Manhattan, NY. I have mainly used the Python pandas and sklearn libraries, where the best outcome was achieved with tree regression. The learning takes place in four distinct parts.
+`taxi_ride.ipynb` contains code used to predict the duration of taxi rides in Manhattan island using data published by [NYC Taxi and Limousine Commission](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page). I have mainly used the Python [pandas](https://pandas.pydata.org/) and [sklearn](https://scikit-learn.org/stable/) libraries, where the best outcome was achieved with tree regression. The learning takes place in four distinct parts.
 
 ## Data Selection and Cleaning
 
-After collecting a random sample of the original taxi rides data into a SQLite database, I have queried only the rides that occurred within the boundaries of New York City. I have then proceeded to filter the data to exclude abnormal rides and keep only rides that happened on Manhattan island using the point-in-polygon algorithm. Below is a visualization of rides kept as a result.
+After collecting a random sample of the original taxi rides data into a [SQLite](https://www.sqlite.org/index.html) database, I have queried only the rides that occurred within the boundaries of New York City. I have then proceeded to filter the data to exclude abnormal rides and keep only rides that happened on Manhattan island using the [point-in-polygon algorithm](https://en.wikipedia.org/wiki/Point_in_polygon). Below is a visualization of rides kept as a result.
 
 ## Exploratory Data Analysis
 
